@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    height: 43em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px 80px;
+    gap: 2rem;
+    box-shadow: 0 5px 15px red;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:  black;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover{
+    color: blue;
+}
+
+
+#navbar li a:hove::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    background: rgb(7, 7, 7);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+#mobile i{
+    color: brown;
+
+}
+
+.site-title{
+    font-size: 2rem;
+}
+
+
+#img {
+    height: 20em;
+}
